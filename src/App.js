@@ -24,6 +24,9 @@ import ComponentWillUnmount from "./Components/ComponentWillUnmount";
 import Hooks from "./Components/Hooks";
 import UseEffectHookConditional from "./Components/UseEffectHookConditional";
 
+import UseMemoHook from "./Components/UseMemoHook";
+import UseCallbackHook from "./Components/UseCallbackHook";
+
 
 
 
@@ -61,7 +64,9 @@ function App() {
      {/* <ComponentWillUnmount/> */}
      {/* <Hooks data={firstName}/>
      <button onClick={()=>setName("safamaqbool")}>Update Name</button> */}
-     <UseEffectHookConditional/>
+     {/* <UseEffectHookConditional/> */}
+     {/* <UseMemoHook/> */}
+     <UseCallbackHook/>
     </div>
   );
 }

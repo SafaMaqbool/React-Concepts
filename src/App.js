@@ -26,6 +26,7 @@ import UseEffectHookConditional from "./Components/UseEffectHookConditional";
 
 import UseMemoHook from "./Components/UseMemoHook";
 import UseCallbackHook from "./Components/UseCallbackHook";
+import UseContexthook from "./Components/UseContexthook";
 
 
 
@@ -66,7 +67,8 @@ function App() {
      <button onClick={()=>setName("safamaqbool")}>Update Name</button> */}
      {/* <UseEffectHookConditional/> */}
      {/* <UseMemoHook/> */}
-     <UseCallbackHook/>
+     {/* <UseCallbackHook/> */}
+     <UseContexthook/>
     </div>
   );
 }

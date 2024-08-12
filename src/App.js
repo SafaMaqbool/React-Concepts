@@ -27,6 +27,8 @@ import UseEffectHookConditional from "./Components/UseEffectHookConditional";
 import UseMemoHook from "./Components/UseMemoHook";
 import UseCallbackHook from "./Components/UseCallbackHook";
 import UseContexthook from "./Components/UseContexthook";
+import UseRefHook from "./Components/UseRefHook";
+import ForwardRef from "./Components/ForwardRef";
 
 
 
@@ -68,7 +70,9 @@ function App() {
      {/* <UseEffectHookConditional/> */}
      {/* <UseMemoHook/> */}
      {/* <UseCallbackHook/> */}
-     <UseContexthook/>
+     {/* <UseContexthook/> */}
+     {/* <UseRefHook/> */}
+     <ForwardRef/>
     </div>
   );
 }

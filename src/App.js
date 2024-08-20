@@ -29,6 +29,10 @@ import UseCallbackHook from "./Components/UseCallbackHook";
 import UseContexthook from "./Components/UseContexthook";
 import UseRefHook from "./Components/UseRefHook";
 import ForwardRef from "./Components/ForwardRef";
+import ArrayListing from "./Components/ArrayListing";
+import NestedListWithNestedArray from "./Components/NestedListWithNestedArray";
+import Reuse from "./Components/Reuse";
+import LiftingStateUp from "./Components/LiftingStateUp";
 
 
 
@@ -72,7 +76,11 @@ function App() {
      {/* <UseCallbackHook/> */}
      {/* <UseContexthook/> */}
      {/* <UseRefHook/> */}
-     <ForwardRef/>
+     {/* <ForwardRef/> */}
+     {/* <ArrayListing/> */}
+     {/* <NestedListWithNestedArray/> */}
+     {/* <Reuse/> */}
+     <LiftingStateUp/>
     </div>
   );
 }

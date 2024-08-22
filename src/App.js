@@ -33,6 +33,8 @@ import ArrayListing from "./Components/ArrayListing";
 import NestedListWithNestedArray from "./Components/NestedListWithNestedArray";
 import Reuse from "./Components/Reuse";
 import LiftingStateUp from "./Components/LiftingStateUp";
+import ControlledComponent from "./Components/ControlledComponent";
+import UncontrolledComponent from "./Components/UncontrolledComponent";
 
 
 
@@ -80,7 +82,9 @@ function App() {
      {/* <ArrayListing/> */}
      {/* <NestedListWithNestedArray/> */}
      {/* <Reuse/> */}
-     <LiftingStateUp/>
+     {/* <LiftingStateUp/> */}
+     {/* <ControlledComponent/> */}
+     <UncontrolledComponent/>
     </div>
   );
 }

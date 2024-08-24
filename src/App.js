@@ -35,6 +35,7 @@ import Reuse from "./Components/Reuse";
 import LiftingStateUp from "./Components/LiftingStateUp";
 import ControlledComponent from "./Components/ControlledComponent";
 import UncontrolledComponent from "./Components/UncontrolledComponent";
+import UseReducerHook from "./Components/UseReducerHook";
 
 
 
@@ -84,7 +85,8 @@ function App() {
      {/* <Reuse/> */}
      {/* <LiftingStateUp/> */}
      {/* <ControlledComponent/> */}
-     <UncontrolledComponent/>
+     {/* <UncontrolledComponent/> */}
+     <UseReducerHook/>
     </div>
   );
 }

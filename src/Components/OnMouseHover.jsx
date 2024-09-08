@@ -14,5 +14,5 @@ const OnMouseHover = ({value, increment}) => {
     </>
   )
 }
-
+//repeating logic should be in HOC Component and then passed down
 export default Hoc(OnMouseHover); 

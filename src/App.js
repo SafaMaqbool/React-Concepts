@@ -36,6 +36,8 @@ import LiftingStateUp from "./Components/LiftingStateUp";
 import ControlledComponent from "./Components/ControlledComponent";
 import UncontrolledComponent from "./Components/UncontrolledComponent";
 import UseReducerHook from "./Components/UseReducerHook";
+import OnClick from "./Components/OnClick";
+import OnMouseHover from "./Components/OnMouseHover";
 
 
 
@@ -86,7 +88,9 @@ function App() {
      {/* <LiftingStateUp/> */}
      {/* <ControlledComponent/> */}
      {/* <UncontrolledComponent/> */}
-     <UseReducerHook/>
+     {/* <UseReducerHook/> */}
+     <OnClick/>
+     <OnMouseHover/> 
     </div>
   );
 }

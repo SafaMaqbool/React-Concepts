@@ -38,6 +38,7 @@ import UncontrolledComponent from "./Components/UncontrolledComponent";
 import UseReducerHook from "./Components/UseReducerHook";
 import OnClick from "./Components/OnClick";
 import OnMouseHover from "./Components/OnMouseHover";
+import PreviousState from "./Components/PreviousState";
 
 
 
@@ -89,8 +90,9 @@ function App() {
      {/* <ControlledComponent/> */}
      {/* <UncontrolledComponent/> */}
      {/* <UseReducerHook/> */}
-     <OnClick/>
-     <OnMouseHover/> 
+     {/* <OnClick/>
+     <OnMouseHover/>  */}
+     <PreviousState/>
     </div>
   );
 }

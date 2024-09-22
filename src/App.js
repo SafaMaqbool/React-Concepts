@@ -39,12 +39,21 @@ import UseReducerHook from "./Components/UseReducerHook";
 import OnClick from "./Components/OnClick";
 import OnMouseHover from "./Components/OnMouseHover";
 import PreviousState from "./Components/PreviousState";
+import PreviousProp from "./Components/PreviousProp";
+import StateWithObject from "./Components/StateWithObject";
+import CodeSplitting from "./Components/CodeSplitting";
 
 
 
 
 function App() {
-  const [firstName, setName] = useState("Safa");
+  const [data,setData]=useState(0);
+  function updateData(){
+    // setData(data + 1)
+    let randomValue=Math.floor(Math.random()*10)
+    setData(randomValue)
+  }
+
 
   function getData(){
     alert("hello from app.js")
@@ -92,7 +101,12 @@ function App() {
      {/* <UseReducerHook/> */}
      {/* <OnClick/>
      <OnMouseHover/>  */}
-     <PreviousState/>
+     {/* <PreviousState/> */}
+     {/* <PreviousProp item={data}/>
+     <button onClick={updateData}>Update</button> */}
+
+     {/* <StateWithObject/> */}
+     <CodeSplitting/>
     </div>
   );
 }

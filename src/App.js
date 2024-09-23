@@ -42,6 +42,10 @@ import PreviousState from "./Components/PreviousState";
 import PreviousProp from "./Components/PreviousProp";
 import StateWithObject from "./Components/StateWithObject";
 import CodeSplitting from "./Components/CodeSplitting";
+import ApiCalling from "./Components/ApiCalling";
+import PostApiMethod from "./Components/PostApiMethod";
+import DeleteApiMethod from "./Components/DeleteApiMethod";
+import PrefilledFormData from "./Components/PrefilledFormData";
 
 
 
@@ -106,7 +110,12 @@ function App() {
      <button onClick={updateData}>Update</button> */}
 
      {/* <StateWithObject/> */}
-     <CodeSplitting/>
+     {/* <CodeSplitting/> */}
+     {/* <ApiCalling/> */}
+     {/* <PostApiMethod/> */}
+     {/* <DeleteApiMethod/> */}
+     <PrefilledFormData/>
+
     </div>
   );
 }

@@ -46,6 +46,7 @@ import ApiCalling from "./Components/ApiCalling";
 import PostApiMethod from "./Components/PostApiMethod";
 import DeleteApiMethod from "./Components/DeleteApiMethod";
 import PrefilledFormData from "./Components/PrefilledFormData";
+import PutApiMethod from "./Components/PutApiMethod";
 
 
 
@@ -114,7 +115,8 @@ function App() {
      {/* <ApiCalling/> */}
      {/* <PostApiMethod/> */}
      {/* <DeleteApiMethod/> */}
-     <PrefilledFormData/>
+     {/* <PrefilledFormData/> */}
+     <PutApiMethod/>
 
     </div>
   );

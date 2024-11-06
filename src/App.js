@@ -47,6 +47,7 @@ import PostApiMethod from "./Components/PostApiMethod";
 import DeleteApiMethod from "./Components/DeleteApiMethod";
 import PrefilledFormData from "./Components/PrefilledFormData";
 import PutApiMethod from "./Components/PutApiMethod";
+import MyCounter from "./Components/MyCounter";
 
 
 
@@ -116,7 +117,8 @@ function App() {
      {/* <PostApiMethod/> */}
      {/* <DeleteApiMethod/> */}
      {/* <PrefilledFormData/> */}
-     <PutApiMethod/>
+     {/* <PutApiMethod/> */}
+     <MyCounter/>
 
     </div>
   );

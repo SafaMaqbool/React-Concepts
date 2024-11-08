@@ -48,6 +48,7 @@ import DeleteApiMethod from "./Components/DeleteApiMethod";
 import PrefilledFormData from "./Components/PrefilledFormData";
 import PutApiMethod from "./Components/PutApiMethod";
 import MyCounter from "./Components/MyCounter";
+import AxiosGetRequest from "./axios/AxiosGetRequest";
 
 
 
@@ -118,7 +119,8 @@ function App() {
      {/* <DeleteApiMethod/> */}
      {/* <PrefilledFormData/> */}
      {/* <PutApiMethod/> */}
-     <MyCounter/>
+     {/* <MyCounter/> */}
+     <AxiosGetRequest/>
 
     </div>
   );

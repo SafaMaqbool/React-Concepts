@@ -49,6 +49,9 @@ import PrefilledFormData from "./Components/PrefilledFormData";
 import PutApiMethod from "./Components/PutApiMethod";
 import MyCounter from "./Components/MyCounter";
 import AxiosGetRequest from "./axios/AxiosGetRequest";
+import AxiosPostRequest from "./axios/AxiosPostRequest";
+import AxiosPutRequest from "./axios/AxiosPutRequest";
+import AxiosDeleteRequest from "./axios/AxiosDeleteRequest";
 
 
 
@@ -120,7 +123,10 @@ function App() {
      {/* <PrefilledFormData/> */}
      {/* <PutApiMethod/> */}
      {/* <MyCounter/> */}
-     <AxiosGetRequest/>
+     {/* <AxiosGetRequest/> */}
+     {/* <AxiosPostRequest/> */}
+     {/* <AxiosPutRequest/> */}
+     <AxiosDeleteRequest/>
 
     </div>
   );

@@ -18,7 +18,7 @@ const AxiosDeleteRequest = () => {
     <h2>Axios Delete Request</h2>
     <button onClick={deleteRecord}>Delete</button>
 
-    </>
+    </> 
   )
 }
 

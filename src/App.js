@@ -52,6 +52,11 @@ import AxiosGetRequest from "./axios/AxiosGetRequest";
 import AxiosPostRequest from "./axios/AxiosPostRequest";
 import AxiosPutRequest from "./axios/AxiosPutRequest";
 import AxiosDeleteRequest from "./axios/AxiosDeleteRequest";
+import {BrowserRouter, Route,Routes,Link, Navigate} from 'react-router-dom'
+import Home from './MyRouters/Home'
+import Home from "./MyRouters/About";
+import Navbar from "./MyRouters/Navbar";
+import PageNotFount from "./MyRouters/PageNotFount";
 
 
 
@@ -85,49 +90,58 @@ function App() {
       {/* <FormHandling/> */}
       {/* <ConditionalRendering /> */}
       {/* <PassFunctionAsProps data={getData}/> */}
-     {/* <FormValidation/> */}
+      {/* <FormValidation/> */}
       {/* <Render data={firstName}/>
       <button onClick={()=>{setName("Safa Maqbool")}}>Update Name</button> */}
       {/* <ComponentDidMount/> */}
       {/* <ComponentDidUpdate/> */}
       {/* <ShouldComponentUpdate/> */}
-     {/* <GetSnapshotbeforeUpdate data={firstName}/>
+      {/* <GetSnapshotbeforeUpdate data={firstName}/>
      <button onClick={()=>setName("Farzeen")}>Update</button> */}
-     {/* <ComponentWillUnmount/> */}
-     {/* <Hooks data={firstName}/>
+      {/* <ComponentWillUnmount/> */}
+      {/* <Hooks data={firstName}/>
      <button onClick={()=>setName("safamaqbool")}>Update Name</button> */}
-     {/* <UseEffectHookConditional/> */}
-     {/* <UseMemoHook/> */}
-     {/* <UseCallbackHook/> */}
-     {/* <UseContexthook/> */}
-     {/* <UseRefHook/> */}
-     {/* <ForwardRef/> */}
-     {/* <ArrayListing/> */}
-     {/* <NestedListWithNestedArray/> */}
-     {/* <Reuse/> */}
-     {/* <LiftingStateUp/> */}
-     {/* <ControlledComponent/> */}
-     {/* <UncontrolledComponent/> */}
-     {/* <UseReducerHook/> */}
-     {/* <OnClick/>
+      {/* <UseEffectHookConditional/> */}
+      {/* <UseMemoHook/> */}
+      {/* <UseCallbackHook/> */}
+      {/* <UseContexthook/> */}
+      {/* <UseRefHook/> */}
+      {/* <ForwardRef/> */}
+      {/* <ArrayListing/> */}
+      {/* <NestedListWithNestedArray/> */}
+      {/* <Reuse/> */}
+      {/* <LiftingStateUp/> */}
+      {/* <ControlledComponent/> */}
+      {/* <UncontrolledComponent/> */}
+      {/* <UseReducerHook/> */}
+      {/* <OnClick/>
      <OnMouseHover/>  */}
-     {/* <PreviousState/> */}
-     {/* <PreviousProp item={data}/>
+      {/* <PreviousState/> */}
+      {/* <PreviousProp item={data}/>
      <button onClick={updateData}>Update</button> */}
 
-     {/* <StateWithObject/> */}
-     {/* <CodeSplitting/> */}
-     {/* <ApiCalling/> */}
-     {/* <PostApiMethod/> */}
-     {/* <DeleteApiMethod/> */}
-     {/* <PrefilledFormData/> */}
-     {/* <PutApiMethod/> */}
-     {/* <MyCounter/> */}
-     {/* <AxiosGetRequest/> */}
-     {/* <AxiosPostRequest/> */}
-     {/* <AxiosPutRequest/> */}
-     <AxiosDeleteRequest/>
-
+      {/* <StateWithObject/> */}
+      {/* <CodeSplitting/> */}
+      {/* <ApiCalling/> */}
+      {/* <PostApiMethod/> */}
+      {/* <DeleteApiMethod/> */}
+      {/* <PrefilledFormData/> */}
+      {/* <PutApiMethod/> */}
+      {/* <MyCounter/> */}
+      {/* <AxiosGetRequest/> */}
+      {/* <AxiosPostRequest/> */}
+      {/* <AxiosPutRequest/> */}
+      {/* <AxiosDeleteRequest/> */}
+      <BrowserRouter>
+        {/* <Link to="/home">Home</Link>
+        <Link to="/about">About</Link> */}
+        <Navbar />
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/*" element={<Navigate to='/' />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

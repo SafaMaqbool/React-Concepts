@@ -1,17 +1,48 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
-      <ul>
+      <ul className="nav">
         <li>
-          <Link to="/home">Home</Link>
-          <Link to="/about">About</Link>
+          <NavLink
+            to="/home"
+            style={({ isActive }) =>
+              isActive
+                ? { color: "blue", fontWeight: "bold" }
+                : { color: "black", fontWeight: "normal" }
+            }
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/about"
+            style={({ isActive }) =>
+              isActive
+                ? { color: "blue", fontWeight: "bold" }
+                : { color: "black", fontWeight: "normal" }
+            }
+          >
+            About
+          </NavLink>
+          <NavLink
+            to="/contact"
+            style={({ isActive }) =>
+              isActive
+                ? { color: "blue", fontWeight: "bold" }
+                : { color: "black", fontWeight: "normal" }
+            }
+          >
+            Contact
+          </NavLink>
+          <NavLink to='/search'>
+            Search
+          </NavLink>
         </li>
       </ul>
     </>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

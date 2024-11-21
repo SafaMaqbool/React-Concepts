@@ -36,9 +36,9 @@ const Navbar = () => {
           >
             Contact
           </NavLink>
-          <NavLink to='/search'>
-            Search
-          </NavLink>
+          <NavLink to="/search">Search</NavLink>
+          <NavLink to="/company">Company</NavLink>
+          <NavLink to="/login">Login</NavLink>
         </li>
       </ul>
     </>
